@@ -1,51 +1,239 @@
 import React from 'react';
-import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, View } from 'react-native';
-import { AppHeader } from './AppHeader';
+import { StyleSheet, View } from 'react-native';
+import * as channelLogos from './Media/channelLogos';
 
-export function App() {
+const Multiplier = (props: any) => {
+  const result: Array<React.FC> = [];
+
+  for (let i = 0; i < props.amount; i++) {
+    result.push(props.component);
+  }
+
+  return (
+    <View style={props.style}>
+      {result.map(r => (r))}
+    </View>
+  );
+};
+
+const AllLogos = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <AppHeader />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Code sharing using Monorepo</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>packages/components/App.tsx</Text> to change this
-                screen and then come back to see your edits (in the phone or the browser).
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Web support via react-native-web</Text>
-              <Text style={styles.sectionDescription}>
-                Run <Text style={styles.highlight}>yarn workspace web start</Text> to 
-                open this app in the browser. 
-              </Text>
-              <Text style={styles.sectionDescription}>
-                It will share the same code from mobile, unless you create platform-specific files 
-                using the <Text style={styles.highlight}>.web.tsx</Text> extension 
-                (also supports <Text style={styles.highlight}>.android</Text>,{' '}
-                <Text style={styles.highlight}>.ios</Text>,{' '}
-                <Text style={styles.highlight}>.native</Text>, etc).
-              </Text>
-            </View>
-          </View>
-        </ScrollView>
-      </SafeAreaView>
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
     </>
   );
 };
 
+export function App() {
+  return (
+    <View style={styles.app}>
+    <channelLogos.Qvc style={styles.icon} />
+    <channelLogos.Qvc2 style={styles.icon} />
+    <channelLogos.Qvc3 style={styles.icon} />
+    <channelLogos.Beautyiq style={styles.icon} />
+    <channelLogos.Hsn style={styles.icon} />
+    <channelLogos.Hsn2 style={styles.icon} />
+    <channelLogos.Qvc style={styles.icon} />
+    <channelLogos.Qvc2 style={styles.icon} />
+    <channelLogos.Qvc3 style={styles.icon} />
+    <channelLogos.Beautyiq style={styles.icon} />
+    <channelLogos.Hsn style={styles.icon} />
+    <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+      <channelLogos.Qvc style={styles.icon} />
+      <channelLogos.Qvc2 style={styles.icon} />
+      <channelLogos.Qvc3 style={styles.icon} />
+      <channelLogos.Beautyiq style={styles.icon} />
+      <channelLogos.Hsn style={styles.icon} />
+      <channelLogos.Hsn2 style={styles.icon} />
+    </View>
+  );
+};
+
 const styles = StyleSheet.create({
+  app: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'black',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap'
+  },
+  icon: {
+    height: 30,
+    width: 90,
+  },
   scrollView: {
     backgroundColor: 'white',
   },

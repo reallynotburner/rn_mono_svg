@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="159px" height="42px" viewBox="0 0 159 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>intro-card-screen-live-indicator</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Developer-Assets" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="Amazon-Fire" transform="translate(-415.000000, -1133.000000)" fill="#FFFFFF">
+            <g id="channel-cards-live-indicator" transform="translate(415.000000, 1133.000000)">
+                <polygon id="Fill-1" points="1.71773706e-12 41.998 1.71773706e-12 -2.0250468e-13 9 -2.0250468e-13 9 33.898 28.499 33.898 28.499 41.998"></polygon>
+                <polygon id="Fill-3" points="45.9 41.998 54.899 41.998 54.899 -2.0250468e-13 45.9 -2.0250468e-13"></polygon>
+                <polygon id="Fill-5" points="71.9991 -2.0250468e-13 81.5991 -2.0250468e-13 92.3981 31.198 103.1981 -2.0250468e-13 112.7981 -2.0250468e-13 97.1981 41.998 87.5991 41.998"></polygon>
+                <polygon id="Fill-6" points="158.3975 33.8984 158.3975 41.9984 126.8985 41.9984 126.8985 0.0004 157.7965 0.0004 157.7965 8.0994 135.8985 8.0994 135.8985 16.4994 152.9975 16.4994 152.9975 24.5984 135.8985 24.5984 135.8985 33.8984"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

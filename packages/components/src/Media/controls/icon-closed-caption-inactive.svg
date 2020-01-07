@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="48px" viewBox="0 0 54 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-closed-caption-inactive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Developer-Assets" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.3">
+        <g id="Amazon-Fire" transform="translate(-453.000000, -234.000000)" fill="#FFFFFF" fillRule="nonzero">
+            <g id="icons/cc/inactive" transform="translate(444.000000, 222.000000)">
+                <path d="M57,12 L15,12 C11.67,12 9,14.7 9,18 L9,54 C9,57.3 11.67,60 15,60 L57,60 C60.3,60 63,57.3 63,54 L63,18 C63,14.7 60.3,12 57,12 Z M33,33 L28.5,33 L28.5,31.5 L22.5,31.5 L22.5,40.5 L28.5,40.5 L28.5,39 L33,39 L33,42 C33,43.65 31.65,45 30,45 L21,45 C19.35,45 18,43.65 18,42 L18,30 C18,28.35 19.35,27 21,27 L30,27 C31.65,27 33,28.35 33,30 L33,33 Z M54,33 L49.5,33 L49.5,31.5 L43.5,31.5 L43.5,40.5 L49.5,40.5 L49.5,39 L54,39 L54,42 C54,43.65 52.65,45 51,45 L42,45 C40.35,45 39,43.65 39,42 L39,30 C39,28.35 40.35,27 42,27 L51,27 C52.65,27 54,28.35 54,30 L54,33 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
